@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 239, 243);
+    margin: 0;
+}
+
+.bar {
+    background-color: rgb(15, 15, 15);
+    padding: 20px;
+}
+
+.header {
+    background-color: lavender;
+    text-align: center;
+    padding: 1px;
+    font-size: 25px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#mainimage {
+    width: 100%;
+
+}
+
+
+
+.listitem {
+    width: 40%;
+    background-color: rgb(243, 239, 243);
+    list-style-position: inside;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Marcellus SC', serif;
+    background-color: rgb(53, 53, 59);
+    margin: 100px;
+}
+
+.listitem:hover {
+    background-color: gray;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 3px 20px 20px 0px  rgba(0,0,0,0.3);
+}
+}
+
+
